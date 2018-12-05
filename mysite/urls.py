@@ -20,4 +20,5 @@ from django.conf.urls import include,url
 urlpatterns = [
     path('admin/', admin.site.urls),
     url('',include('HomePage.urls')),
+    url('/news',include('news.urls'))
 ]
